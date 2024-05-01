@@ -21,12 +21,9 @@ payload = {
                         "request_json": True
                     },
                     "synthesizer": {
-                        "provider": "polly",
+                        "provider": "deepgram",
                         "provider_config": {
-                            "voice": "Kajal",
-                            "engine": "neural",
-                            "sampling_rate": "8000",
-                            "language": "en-US"
+                            "voice": "aura-asteria-en"                            
                         },
                         "stream": True,
                         "buffer_size": 123,
