@@ -1,6 +1,6 @@
 import requests
 
-url = "https://0.0.0.0:5001/agent"
+url = "http://0.0.0.0:5001/agent"
 
 payload = {
     "agent_config": {
