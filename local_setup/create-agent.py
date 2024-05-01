@@ -13,7 +13,7 @@ payload = {
                     "llm_agent": {
                         "streaming_model": "gpt-3.5-turbo",
                         "classification_model": "gpt-3.5-turbo",
-                        "max_tokens": 80,
+                        "max_tokens": 123,
                         "agent_flow_type": "streaming",
                         "use_fallback": True,
                         "family": "openai",
@@ -53,7 +53,7 @@ payload = {
             }
         ]
     },
-    "agent_prompts": {"task_1": {"system_prompt": "You are a helpful assistant. Respond to everything in only one simple and short sentence."}}
+    "agent_prompts": {"task_1": {"system_prompt": "You are a helpful assistant. Respond to everything in one or two sentences only."}}
 }
 headers = {
     #"Authorization": "Bearer <token>",
