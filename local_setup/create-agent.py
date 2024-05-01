@@ -11,9 +11,9 @@ payload = {
                 "task_type": "conversation",
                 "tools_config": {
                     "llm_agent": {
-                        "streaming_model": "gpt-3.5-turbo-16k",
-                        "classification_model": "gpt-4",
-                        "max_tokens": 123,
+                        "streaming_model": "gpt-3.5-turbo",
+                        "classification_model": "gpt-3.5-turbo",
+                        "max_tokens": 80,
                         "agent_flow_type": "streaming",
                         "use_fallback": True,
                         "family": "openai",
@@ -53,7 +53,7 @@ payload = {
             }
         ]
     },
-    "agent_prompts": {"task_1": {"system_prompt": "What is the Ultimate Question of Life, the Universe, and Everything?"}}
+    "agent_prompts": {"task_1": {"system_prompt": "You are a helpful assistant. Respond to everything in only one simple and short sentence."}}
 }
 headers = {
     #"Authorization": "Bearer <token>",
