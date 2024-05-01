@@ -21,12 +21,11 @@ payload = {
                         "request_json": True
                     },
                     "synthesizer": {
-                        "provider": "polly",
+                        "provider": "openai",
                         "provider_config": {
-                            "voice": "Kajal",
-                            "engine": "neural",
-                            "sampling_rate": "8000",
-                            "language": "en-US"
+                            "voice": "alloy",
+                            "model": "tts-1",
+                            "sampling_rate": "24000"                            
                         },
                         "stream": True,
                         "buffer_size": 123,
